@@ -2,10 +2,14 @@
 
 :root{
     --primary-color:#34D399;
+    --dark-grey:#4B5563;
+    --off-white:#FEF3C7;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
+    padding:0px;
+    margin: 0px;;
 }
 
 hr{
@@ -81,4 +85,58 @@ hr{
     font-weight: bold;
 }
 
+/**HEADER**/
 
+
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+  max-width: 350px;
+  display: block;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.hero .hero-heading{
+    padding-top:1rem;
+    color: var(--dark-grey);
+    text-align: center;
+}
+
+.hero .hero-heading .reverse{
+    color: var(--primary-color);
+}
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/**footer**/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius:1.5rem;
+}
+
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
