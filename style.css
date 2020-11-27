@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,600;1,400&display=swap');
+
+body{
+    font-family: 'Crimson Text', serif;
+}
+
+
+/**conntainer**/
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-fluid{
+     max-width: 600px;
+     margin: auto;
+}
