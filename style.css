@@ -126,12 +126,11 @@ hr{
 }
 
 .prof-pic{
-   align-items: center;
-   display: flex;
-    /* flex-wrap: wrap; */
-    /* width: initial; */
-    max-width: 100%;
-    height: inherit;
+    align-items: center;
+   display: flex; 
+   justify-content: center;
+   max-width: 190%;
+    
     border-radius: 50%;
     margin: auto;
     border-left: var(--primary-color) outset 4px;border-bottom: var(--primary-color) outset 3px;
@@ -144,7 +143,7 @@ hr{
 
 .section .split .column{
     flex: 50%;
-    height: 350px;
+    height: 420px;
     background-color: var(--off-white);
     padding: 0.5rem;
 }
@@ -157,6 +156,8 @@ hr{
 
 .section .split .right{
     background-color: white;
+    display: flex;
+    align-items: center;
 }
 
 .section h1{
