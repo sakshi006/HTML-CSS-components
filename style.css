@@ -6,6 +6,42 @@
     --off-white:#FEE2E2;
 }
 
+
+/* PRE-LOADER */
+
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url("82.gif") center no-repeat #fff;
+}
+
+
+/* DARK MODE */
+
+.btn{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.toggle{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.dark-mode{
+    background-color: black;
+    color:#4B5563;
+}
+
+
 body{
     font-family: 'Montserrat', sans-serif;
     padding:0px;
