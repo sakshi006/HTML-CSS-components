@@ -7,6 +7,9 @@
     <link href="style.css" rel="stylesheet">
     
     <link rel="icon" type="image/png" href="https://img.icons8.com/ios-filled/2x/girl.png">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
     <nav class="navigation container">
@@ -45,7 +48,7 @@
         </div>
      </section>
 
-     <section class="section ow">
+     <section class="section ow" data-aos="fade-left">
         <div class="container container-fluid">
             <strong>GET JOKES</strong>
             <p>Made using HTML,CSS JavaScript.Fetched an API to deliver the jokes.
@@ -61,7 +64,7 @@
         </div>
      </section>
 
-    <section class="section">
+    <section class="section" data-aos="fade-right">
         <div class="container container-fluid">
             <strong>BOOK RECOMMENDATION WEBSITE</strong>
             <p>A website made using ReactJS. Gives brief description about the books of different genures. As of now, there are very few books in the database, will keep updating it. Have a look!</p>
@@ -76,7 +79,7 @@
         </div>
      </section>
 
-    <section class="section ow">
+    <section class="section ow" data-aos="fade-left">
         <div class="container container-fluid">
             <strong>FLAG INTERPRETER</strong>
             <p>Made a flag interpreter using ReactJS. Enter/Select the flag emoji and you will get to know the country it belongs to. All the Flag 'emos' that exist are present in this one! Enjoy challenging people :P</p>
@@ -90,7 +93,7 @@
         </div>
      </section>
 
-    <section class="section">
+    <section class="section" data-aos="fade-right">
         <div class="container container-fluid">
             <strong>Number Game</strong>
             <p>A website made using HTML,CSS and JavaScript. It translates the number you add to it's Roman form and also gives the English translation of the same.</p>
@@ -106,7 +109,7 @@
      </section>
 
 
-    <section class="section ow">
+    <section class="section ow" data-aos="fade-left">
         <div class="container container-fluid">
             <strong>MINION SPEAKS!</strong>
             <p>A translator website which converts English to the Minion language! Isn't it fascinating!? Do have a look :)</p>
@@ -120,7 +123,7 @@
         </div>
      </section>
 
-     <section class="section">
+     <section class="section" data-aos="fade-right">
         <div class="container container-fluid">
             <strong>CHECK BIRTHDAY</strong>
             <p>A website made using HTML, CSS and JavaScript which tells wether your Birth-year is a leap year or not and your Birth-date is Prime or not!?</p>
@@ -134,7 +137,7 @@
         </div>
      </section>
 
-    <section class="section ow">
+    <section class="section ow" data-aos="fade-left">
         <div class="container container-fluid">
             <strong>F.R.I.E.N.D.S. Trivia Quiz</strong>
             <p>This is a CLI quiz based on the world famous sitcom - F.R.I.E.N.D.S. Come on guys, show-off your F.R.I.E.N.D.S. knowledge!</p>
@@ -151,7 +154,7 @@
 
 
 
-     <section class="section">
+     <section class="section" data-aos="fade-right">
         <div class="container container-fluid">
             <strong>How well do you know me!?</strong>
             <p>Made a not-so-general CLI quiz based on the creator of this portfolio :P. If you think you know me well enough..try this!</p>
@@ -167,7 +170,7 @@
 
 
 
-     <section class="section ow">
+     <section class="section ow" data-aos="fade-left">
         <div class="container container-fluid">
             <strong>Background Generator</strong>
             <p>Created a Background Generator using basic HTML,CSS and Javascript<p>
@@ -222,5 +225,12 @@
 
 
         <script src="app.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+              offset:350,
+              duration:1000
+          });
+        </script>
 </body>
 </html>
