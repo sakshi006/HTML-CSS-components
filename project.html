@@ -1,45 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects | Sakshi</title>
-    <link href="style.css" rel="stylesheet">
-    
-    <link rel="icon" type="image/png" href="https://img.icons8.com/ios-filled/2x/girl.png">
+    <link href="style.css" rel="stylesheet" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://img.icons8.com/ios-filled/2x/girl.png"
+    />
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navigation container">
-        <div class="nav-brand"><a class="link" href="index.html">Sa.kshi</a></div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline"><a class="link" href="index.html">Home</a></li>
-            <li class="list-item-inline"><a class="link" href="about.html">About</a></li>
+      <div class="nav-brand"><a class="link" href="index.html">Sa.kshi</a></div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="index.html">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="about.html">About</a>
+        </li>
 
-            <li class="list-item-inline"><a class="link  link-active" href="project.html">Projects</a></li>
-            <li class="list-item-inline"><a class="link" href="blogs.html">Blogs</a></li>
-        </ul>
+        <li class="list-item-inline">
+          <a class="link link-active" href="project.html">Projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="blogs.html">Blogs</a>
+        </li>
+      </ul>
     </nav>
     <button class="btn">
-        <img class="toggle" src="on.png">
+      <img class="toggle" src="on.png" />
     </button>
 
-
     <header class="hero">
-        <img class="hero-img" src="/images/program.svg" />
-        <h1 class="hero-heading">Hello<span class="reverse"> World!</span></h1>
+      <img class="hero-img" src="/images/program.svg" />
+      <h1 class="hero-heading">Hello<span class="reverse"> World!</span></h1>
     </header>
 
-<div class="btns">
- <button id="react" onclick="toggleDiv()">ReactJS</button>
- <button id="vanilla" onclick="toggleDivJS()">VanillaJS</button>
-</div>
+    <div class="btns">
+      <button id="react" onclick="toggleDiv()">ReactJS</button>
+      <button id="vanilla" onclick="toggleDivJS()">VanillaJS</button>
+    </div>
 
- <div id="react__projects" style="display: none;">
-    <h2 class="btns">ReactJS Projects</h2>
-    <section class="section ow">
+    <div id="react__projects" style="display: none">
+      <h2 class="btns">ReactJS Projects</h2>
+      <!-- <section class="section ow">
         <div class="container container-fluid">
             <strong>Fav Flicks</strong>
             <p>An App made using React and Redux to list some movies, search the movies using OMDb API and add/remove them from favorites. Deployed using Netlify.</p>
@@ -51,9 +61,9 @@
             <a class="link link-secondary" href="https://github.com/sakshi006/Movies_FAV">VIEW SOURCE-CODE</a>
       </p>
         </div>
-     </section>
+     </section> -->
 
-    <section class="section">
+      <!-- <section class="section">
         <div class="container container-fluid">
             <strong>CASH LOGGING BOOK</strong>
             <p>Cash register made using React, Material-UI, and Firebase real-time database hosted on firebase. You can log your expenses with the date, time, and remarks and also delete them. It shows the final value on the top.</p>
@@ -65,8 +75,8 @@
             <a class="link link-secondary" href="https://github.com/sakshi006/cash_register_react">VIEW SOURCE-CODE</a>
       </p>
         </div>
-     </section>
-    <section class="section ow">
+     </section> -->
+      <!-- <section class="section ow">
         <div class="container container-fluid">
             <strong>InstaFIRE</strong>
             <p>A website made using ReactJS and Firebase. You can upload, delete and view your images.I have also added the like feature. Used Firebase Firestore and Storage features. Hosted using Firebase.</p>
@@ -78,22 +88,33 @@
             <a class="link link-secondary" href="https://github.com/sakshi006/instafire">VIEW SOURCE-CODE</a>
       </p>
         </div>
-     </section>
-  
-    <section class="section ">
+     </section> -->
+
+      <section class="section">
         <div class="container container-fluid">
-            <strong>FLAG INTERPRETER</strong>
-            <p>Made a flag interpreter using ReactJS. Enter/Select the flag emoji and you will get to know the country it belongs to. All the Flag 'emos' that exist are present in this one! Enjoy challenging people :P</p>
-            <small>December 2020</small>
-           <p>
-                   <a class="link link-primary" href="https://cxojb.csb.app/">OPEN PROJECT</a>
-           </p>
-           <p>
-            <a class="link link-secondary" href="https://github.com/sakshi006/Flag-interpreter/tree/main">VIEW SOURCE-CODE</a>
-      </p>
+          <strong>FLAG INTERPRETER</strong>
+          <p>
+            Made a flag interpreter using ReactJS. Enter/Select the flag emoji
+            and you will get to know the country it belongs to. All the Flag
+            'emos' that exist are present in this one! Enjoy challenging people
+            :P
+          </p>
+          <!-- <small>December 2020</small> -->
+          <p>
+            <a class="link link-primary" href="https://cxojb.csb.app/"
+              >OPEN PROJECT</a
+            >
+          </p>
+          <p>
+            <a
+              class="link link-secondary"
+              href="https://github.com/sakshi006/Flag-interpreter/tree/main"
+              >VIEW SOURCE-CODE</a
+            >
+          </p>
         </div>
-     </section>
-     <!-- <section class="section ow">
+      </section>
+      <!-- <section class="section ow">
         <div class="container container-fluid">
             <strong>RECIPE APP</strong>
             <p>A website made using ReactJS. Search about the recipies you are looking for. On clicking a particular dish, you will be directed to a new section displaying the details related to it like, calories, ingredients used etc.</p>
@@ -101,169 +122,336 @@
            <!-- <p>
                    <a class="link link-primary" href="https://wb2mm.csb.app/">TRY IT!</a>
            </p> -->
-           <!-- <p>
+      <!-- <p>
             <a class="link link-secondary" href="https://github.com/sakshi006/foodapp">VIEW SOURCE-CODE</a>
       </p>
         </div>
-     </section> --> -->
+     </section> -->
+      -->
 
-    <section class="section ow">
+      <section class="section ow">
         <div class="container container-fluid">
-            <strong>BOOK RECOMMENDATION WEBSITE</strong>
-            <p>A website made using ReactJS. Gives brief description about the books of different genures. As of now, there are very few books in the database, will keep updating it. Have a look!</p>
-            
-            <small>December 2020</small>
-           <p>
-                   <a class="link link-primary" href="https://wb2mm.csb.app/">TRY IT!</a>
-           </p>
-           <p>
-            <a class="link link-secondary" href="https://github.com/sakshi006/BOOK-RECOMMENDATION">VIEW SOURCE-CODE</a>
-      </p>
-        </div>
-     </section>
- </div>
+          <strong>BOOK RECOMMENDATION WEBSITE</strong>
+          <p>
+            A website made using ReactJS. Gives brief description about the
+            books of different genures. As of now, there are very few books in
+            the database, will keep updating it. Have a look!
+          </p>
 
- <div id="js__projects" style="display: none;">
-    <h2 class="btns">VanillaJS Projects</h2>
-    <section class="section ow">
+          <!-- <small>December 2020</small> -->
+          <p>
+            <a class="link link-primary" href="https://wb2mm.csb.app/"
+              >TRY IT!</a
+            >
+          </p>
+          <p>
+            <a
+              class="link link-secondary"
+              href="https://github.com/sakshi006/BOOK-RECOMMENDATION"
+              >VIEW SOURCE-CODE</a
+            >
+          </p>
+        </div>
+      </section>
+      <section class="section">
         <div class="container container-fluid">
-            <strong>TIC-TAC-TOE</strong>
-            <p>TIC-TAC-TOE game Made using HTML,CSS JavaScript.
-            </p>
-            <small>January 2021</small>
-           <p>
-                   <a class="link link-primary" href="https://always-tictactoe-game.netlify.app/">LIVE PROJECT</a>
-           </p>
-           <p>
-            <a class="link link-secondary" href="https://github.com/sakshi006/tic-tac-toe">VIEW SOURCE-CODE</a>
-      </p>
+          <strong>PALINDROME BIRTHDAY</strong>
+          <p>
+            Enter your birthday and it will output if the given date is a
+            palindrome if arranged in any of the six ways possible. Made using
+            CSS and ReactJS.
+          </p>
+          <!-- <small>December 2020</small> -->
+          <p>
+            <a
+              class="link link-primary"
+              href="https://palinndromebday.netlify.app/"
+              >LIVE PROJECT</a
+            >
+          </p>
+          <p>
+            <a
+              class="link link-secondary"
+              href="https://github.com/sakshi006/palindromebirthday"
+              >VIEW SOURCE-CODE</a
+            >
+          </p>
         </div>
-     </section>
-    <section class="section">
-        <div class="container container-fluid">
-            <strong>CASH REGISTER</strong>
-            <p>Enter the bill amount and cash paid, you'll get the amount to be returned along with the cash denominations.Made using HTML,CSS JavaScript.
-            </p>
-            <small>December 2020</small>
-           <p>
-                   <a class="link link-primary" href="https://cash-calc.netlify.app/">LIVE PROJECT</a>
-           </p>
-           <p>
-            <a class="link link-secondary" href="https://github.com/sakshi006/cash-register">VIEW SOURCE-CODE</a>
-      </p>
-        </div>
-     </section>
-
-     <section class="section ow">
-        <div class="container container-fluid">
-            <strong>GET JOKES</strong>
-            <p>Made using HTML,CSS JavaScript.Fetched an API to deliver the jokes.
-            </p>
-            <small>P.S. : unfiltered</small><br>
-            <small>December 2020</small>
-           <p>
-                   <a class="link link-primary" href="lib/jokes/index.html">LIVE PROJECT</a>
-           </p>
-           <p>
-            <a class="link link-secondary" href="https://github.com/sakshi006/SakshiWebsite/tree/main/lib">VIEW SOURCE-CODE</a>
-      </p>
-        </div>
-     </section>
-    
-
-    <section class="section" >
-        <div class="container container-fluid">
-            <strong>Number Game</strong>
-            <p>A website made using HTML,CSS and JavaScript. It translates the number you add to it's Roman form and also gives the English translation of the same.</p>
-            
-            <small>December 2020</small>
-           <p>
-                   <a class="link link-primary" href="https://numbertranslator.netlify.app/">PLAY</a>
-           </p>
-           <p>
-                 <a class="link link-secondary" href="https://github.com/sakshi006/Number-game">VIEW SOURCE-CODE</a>
-           </p>
-        </div>
-     </section>
-
-
-    <section class="section ow" >
-        <div class="container container-fluid">
-            <strong>MINION SPEAKS!</strong>
-            <p>A translator website which converts English to the Minion language! Isn't it fascinating!? Do have a look :)</p>
-            <small>November 2020</small>
-           <p>
-                   <a class="link link-primary" href="https://minionsays.netlify.app/">TRANSLATE</a>
-           </p>
-           <p>
-                 <a class="link link-secondary" href="https://github.com/sakshi006/Minion-Translator">VIEW SOURCE-CODE</a>
-           </p>
-        </div>
-     </section>
-
-     <section class="section" >
-        <div class="container container-fluid">
-            <strong>CHECK BIRTHDAY</strong>
-            <p>A website made using HTML, CSS and JavaScript which tells wether your Birth-year is a leap year or not and your Birth-date is Prime or not!?</p>
-            <small>December 2020</small>
-           <p>
-                   <a class="link link-primary" href="https://checkbirthday.netlify.app/">PLAY</a>
-           </p>
-           <p>
-                 <a class="link link-secondary" href="https://github.com/sakshi006/Check-Birthday">VIEW SOURCE-CODE</a>
-           </p>
-        </div>
-     </section>
-
-    <section class="section ow" >
-        <div class="container container-fluid">
-            <strong>F.R.I.E.N.D.S. Trivia Quiz</strong>
-            <p>This is a CLI quiz based on the world famous sitcom - F.R.I.E.N.D.S. Come on guys, show-off your F.R.I.E.N.D.S. knowledge!</p>
-            <h5>'I'm not great at advice. But can I interest you in a sarcastic comment?'</h5>
-            <small>November 2020</small>
-           <p>
-                   <a class="link link-primary" href="https://repl.it/@Sakshi06/FRIENDS-QUIZ-tryy?embed=1&output=1#index.js">PLAY</a>
-           </p>
-           <p>
-                 <a class="link link-secondary" href="https://github.com/sakshi006/CLI-Quiz-based-on-F.R.I.E.N.D.S">VIEW SOURCE-CODE</a>
-           </p>
-        </div>
-     </section>
-
-
-
-     <section class="section" >
-        <div class="container container-fluid">
-            <strong>How well do you know me!?</strong>
-            <p>Made a not-so-general CLI quiz based on the creator of this portfolio :P. If you think you know me well enough..try this!</p>
-            <small>November 2020</small>
-           <p>
-                   <a class="link link-primary" href="https://repl.it/@Sakshi06/CLI?embed=1&output=1">PLAY</a>
-           </p>
-           <p>
-                 <a class="link link-secondary" href="https://github.com/sakshi006/How-Well-do-you-know-me-CLI-quiz">VIEW SOURCE-CODE</a>
-           </p>
-        </div>
-     </section>
-
-
-
-     <section class="section ow" >
-        <div class="container container-fluid">
-            <strong>Background Generator</strong>
-            <p>Created a Background Generator using basic HTML,CSS and Javascript<p>
-            
-            <small>September 2020</small>
-           <p>
-                   <!-- <a class="link link-primary" href="file:///C:/Users/saks5/Desktop/webD/background/bg1.html">PLAY</a> -->
-           
-                 <a class="link link-secondary" href="https://github.com/sakshi006/Background-Generator">VIEW SOURCE-CODE</a>
-           </p>
-        </div>
-     </section>
+      </section>
     </div>
 
-     <!-- <section class="section">
+    <div id="js__projects" style="display: none">
+      <h2 class="btns">VanillaJS Projects</h2>
+
+      <section class="section">
+        <div class="container container-fluid">
+          <strong>FUN WITH TRIANGLES</strong>
+          <p>
+            Multiple trivia about triangles developed using HTML, CSS, JS and
+            logics!
+          </p>
+          <!-- <small>January 2021</small> -->
+          <p>
+            <a class="link link-primary" href="funtrio.netlify.app/"
+              >LIVE PROJECT</a
+            >
+          </p>
+          <p>
+            <a
+              class="link link-secondary"
+              href="https://github.com/sakshi006/triangles"
+              >VIEW SOURCE-CODE</a
+            >
+          </p>
+        </div>
+      </section>
+      <section class="section ow">
+        <div class="container container-fluid">
+          <strong>STOCKS CALC</strong>
+          <p>
+            A Profit/loss calculator app which takes stocks price when user
+            bought it as input and the quantity bought along with current stock
+            price and calculate if there is profit or loss. Made using HTML, CSS
+            and Js.
+          </p>
+          <!-- <small>December 2020</small> -->
+          <p>
+            <a class="link link-primary" href="profityloss.netlify.app/"
+              >LIVE PROJECT</a
+            >
+          </p>
+          <p>
+            <a
+              class="link link-secondary"
+              href="https://github.com/sakshi006/stocksCalc"
+              >VIEW SOURCE-CODE</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container container-fluid">
+          <strong>TIC-TAC-TOE</strong>
+          <p>TIC-TAC-TOE game Made using HTML,CSS JavaScript.</p>
+          <!-- <small>January 2021</small> -->
+          <p>
+            <a
+              class="link link-primary"
+              href="https://always-tictactoe-game.netlify.app/"
+              >LIVE PROJECT</a
+            >
+          </p>
+          <p>
+            <a
+              class="link link-secondary"
+              href="https://github.com/sakshi006/tic-tac-toe"
+              >VIEW SOURCE-CODE</a
+            >
+          </p>
+        </div>
+      </section>
+      <section class="section ow">
+        <div class="container container-fluid">
+          <strong>CASH REGISTER</strong>
+          <p>
+            Enter the bill amount and cash paid, you'll get the amount to be
+            returned along with the cash denominations.Made using HTML,CSS
+            JavaScript.
+          </p>
+          <!-- <small>December 2020</small> -->
+          <p>
+            <a class="link link-primary" href="https://cash-calc.netlify.app/"
+              >LIVE PROJECT</a
+            >
+          </p>
+          <p>
+            <a
+              class="link link-secondary"
+              href="https://github.com/sakshi006/cash-register"
+              >VIEW SOURCE-CODE</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <!-- <section class="section ow">
+        <div class="container container-fluid">
+          <strong>GET JOKES</strong>
+          <p>
+            Made using HTML,CSS JavaScript.Fetched an API to deliver the jokes.
+          </p>
+          <small>P.S. : unfiltered</small><br />
+          <small>December 2020</small>
+          <p>
+            <a class="link link-primary" href="lib/jokes/index.html"
+              >LIVE PROJECT</a
+            >
+          </p>
+          <p>
+            <a
+              class="link link-secondary"
+              href="https://github.com/sakshi006/SakshiWebsite/tree/main/lib"
+              >VIEW SOURCE-CODE</a
+            >
+          </p>
+        </div>
+      </section> -->
+
+      <section class="section">
+        <div class="container container-fluid">
+          <strong>Number Game</strong>
+          <p>
+            A website made using HTML,CSS and JavaScript. It translates the
+            number you add to it's Roman form and also gives the English
+            translation of the same.
+          </p>
+
+          <!-- <small>December 2020</small> -->
+          <p>
+            <a
+              class="link link-primary"
+              href="https://numbertranslator.netlify.app/"
+              >PLAY</a
+            >
+          </p>
+          <p>
+            <a
+              class="link link-secondary"
+              href="https://github.com/sakshi006/Number-game"
+              >VIEW SOURCE-CODE</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section class="section ow">
+        <div class="container container-fluid">
+          <strong>MINION SPEAKS!</strong>
+          <p>
+            A translator website which converts English to the Minion language!
+            Isn't it fascinating!? Do have a look :)
+          </p>
+          <!-- <small>November 2020</small> -->
+          <p>
+            <a class="link link-primary" href="https://minionsays.netlify.app/"
+              >TRANSLATE</a
+            >
+          </p>
+          <p>
+            <a
+              class="link link-secondary"
+              href="https://github.com/sakshi006/Minion-Translator"
+              >VIEW SOURCE-CODE</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container container-fluid">
+          <strong>CHECK BIRTHDAY</strong>
+          <p>
+            A website made using HTML, CSS and JavaScript which tells wether
+            your Birth-year is a leap year or not and your Birth-date is Prime
+            or not!?
+          </p>
+          <!-- <small>December 2020</small> -->
+          <p>
+            <a
+              class="link link-primary"
+              href="https://checkbirthday.netlify.app/"
+              >PLAY</a
+            >
+          </p>
+          <p>
+            <a
+              class="link link-secondary"
+              href="https://github.com/sakshi006/Check-Birthday"
+              >VIEW SOURCE-CODE</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section class="section ow">
+        <div class="container container-fluid">
+          <strong>F.R.I.E.N.D.S. Trivia Quiz</strong>
+          <p>
+            This is a CLI quiz based on the world famous sitcom - F.R.I.E.N.D.S.
+            Come on guys, show-off your F.R.I.E.N.D.S. knowledge!
+          </p>
+          <h5>
+            'I'm not great at advice. But can I interest you in a sarcastic
+            comment?'
+          </h5>
+          <!-- <small>November 2020</small> -->
+          <p>
+            <a
+              class="link link-primary"
+              href="https://repl.it/@Sakshi06/FRIENDS-QUIZ-tryy?embed=1&output=1#index.js"
+              >PLAY</a
+            >
+          </p>
+          <p>
+            <a
+              class="link link-secondary"
+              href="https://github.com/sakshi006/CLI-Quiz-based-on-F.R.I.E.N.D.S"
+              >VIEW SOURCE-CODE</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container container-fluid">
+          <strong>How well do you know me!?</strong>
+          <p>
+            Made a not-so-general CLI quiz based on the creator of this
+            portfolio :P. If you think you know me well enough..try this!
+          </p>
+          <!-- <small>November 2020</small> -->
+          <p>
+            <a
+              class="link link-primary"
+              href="https://repl.it/@Sakshi06/CLI?embed=1&output=1"
+              >PLAY</a
+            >
+          </p>
+          <p>
+            <a
+              class="link link-secondary"
+              href="https://github.com/sakshi006/How-Well-do-you-know-me-CLI-quiz"
+              >VIEW SOURCE-CODE</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section class="section ow">
+        <div class="container container-fluid">
+          <strong>Background Generator</strong>
+          <p>
+            Created a Background Generator using basic HTML,CSS and Javascript
+          </p>
+          <p>
+            <small>September 2020</small>
+          </p>
+
+          <p>
+            <!-- <a class="link link-primary" href="file:///C:/Users/saks5/Desktop/webD/background/bg1.html">PLAY</a> -->
+
+            <a
+              class="link link-secondary"
+              href="https://github.com/sakshi006/Background-Generator"
+              >VIEW SOURCE-CODE</a
+            >
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!-- <section class="section">
         <div class="container container-fluid">
             <strong> DAYS OF CODE !</strong>
             <p>30 days coding challenge for JavaScript</p>
@@ -277,38 +465,42 @@
         </div>
      </section> -->
 
+    <footer class="footer">
+      <div class="footer-header">
+        You can connect with me on these platforms.
+      </div>
+      <img class="footer-img" src="/images/socialsites.svg" />
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/sakshi006">Github</a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/sakshi-kumar-789649172/"
+            >Linkedin</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/Sakshi51351126">Twitter</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://www.instagram.com/_.sakshiii_._/"
+            >Instagram</a
+          >
+        </li>
+      </ul>
+      <hr />
+      <div class="bottom">&#169; Made with love &#9829; || Sakshi || 2020</div>
+    </footer>
 
-     <footer class="footer">    
-        <div class="footer-header">You can connect with me on these platforms.</div>        
-   <img class="footer-img" src="/images/socialsites.svg">
-        <ul class="social-links list-non-bullet">
-            <li class="list-item-inline">
-                <a class="link" href="https://github.com/sakshi006">Github</a>
-             </li>
-            <li class="list-item-inline">
-                <a class="link" href="https://www.linkedin.com/in/sakshi-kumar-789649172/">Linkedin</a>
-             </li>
-            <li class="list-item-inline">
-                <a class="link" href="https://twitter.com/Sakshi51351126">Twitter</a>
-             </li>
-             <li class="list-item-inline">
-                <a class="link" href="https://www.instagram.com/_.sakshiii_._/">Instagram</a>
-             </li>
-        </ul>
-        <hr>
-        <div class="bottom">
-            &#169; Made with love &#9829; || Sakshi || 2020	
-           </div>
-        </footer>
-
-
-        <script src="app.js"></script>
-        <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="app.js"></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
           AOS.init({
               offset:400,
               duration:1200
           });
         </script> -->
-</body>
+  </body>
 </html>
